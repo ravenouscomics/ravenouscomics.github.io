@@ -1,0 +1,29 @@
+#Header_Block {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: black;
+    z-index: 2;
+}
+
+.Header_Block-rc-logo {
+    height: 40px;
+    pointer-events: none;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate( 0%, -50%);
+    position: relative;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+@media only screen and (max-width: 300px) {
+    .Header_Block-rc-logo {
+        width: 80%;
+    }  
+}
